@@ -121,6 +121,7 @@ p {
 
 .footer__link-icons {
   width: 30px;
+  align-self: flex-end;
 }
 
 .request {

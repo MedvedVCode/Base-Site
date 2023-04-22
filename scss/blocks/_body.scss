@@ -1,0 +1,118 @@
+.navigation {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 50px;
+  a {
+    color: $h-color;
+    padding: 10px;
+    background-color: none;
+    border: 2px solid $footer-color;
+    border-radius: 15px;
+    width: 250px;
+    font-weight: 700;
+    text-align: center;
+  }
+}
+
+body {
+  padding: 0 100px;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding-left: 50px;
+  font-size: 24px;
+  font-weight: 700;
+  color: $h-color;
+  @include h-underline;
+}
+
+h2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding-left: 50px;
+  font-size: 20px;
+  font-weight: 700;
+  color: $h-color;
+  @include h-underline;
+}
+
+p {
+  margin-top: 20px;
+}
+
+.footer {
+  margin-top: 50px;
+  background-color: $footer-color;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  // border-radius: 15px;
+}
+
+.footer__link-icons {
+  width: 30px;
+}
+
+.request {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin: 50px 0;
+  padding: 50px 0;
+  border-radius: 15px;
+  border: 1px solid $footer-color;
+  background-color: $bgc-light;
+}
+
+.request__input {
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px solid $h-color;
+}
+
+.requst__button {
+  color: rgb(78, 29, 21);
+
+  padding: 5px 10px;
+  border-radius: 15px;
+  border: 1px solid tomato;
+
+  background-color: #c6f0df;
+  align-self: center;
+}
+
+.goods {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 50px 100px;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.card {
+  max-width: 25vw;
+  border: 1px dotted $footer-color;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px 0px $footer-color;
+}
+.card__title {
+  // background-color: $bgc-light;
+  text-align: center;
+}
+.card__img {
+  margin-top: 10px;
+  max-height: 60vh;
+  margin: 0 auto;
+}
+.card__description {
+  font-size: 14px;
+  padding: 10px;
+  text-align: center;
+}

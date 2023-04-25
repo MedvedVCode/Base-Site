@@ -1,9 +1,0 @@
-$h-color: #222a45;
-$footer-color: #a1c6cb;
-$bgc-light:#ebf6f7;
-
-@mixin h-underline{
-  border-bottom: 2px solid $footer-color;
-  border-radius: 15px;
-  width: 400px;
-}

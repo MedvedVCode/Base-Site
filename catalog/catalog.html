@@ -9,13 +9,19 @@
   </head>
 
   <body>
-    <nav class="navigation">
-      <a href="../index.html">Главная</a>
-      <a href="#">Каталог</a>
-      <a href="../contacts.html">Контакты</a>
-    </nav>
-    <h1>Каталог</h1>
-    <p>
+    <ul class="menu">
+      <li class="menu-item">
+        <a class="menu-link" href="../index.html">Главная</a>
+      </li>
+      <li class="menu-item">
+        <a class="menu-link" href="#">Каталог</a>
+      </li>
+      <li class="menu-item">
+        <a class="menu-link" href="../contacts.html">Контакты</a>
+      </li>
+    </ul>
+    <h1 class="title">Каталог</h1>
+    <p class="txt">
       Далеко-далеко за, словесными горами в стране гласных и согласных живут
       рыбные тексты. Правилами раз гор ты ручеек, жизни ipsum до но все домах
       сбить последний, он своего вершину то бросил запятой пор ему которой они
@@ -34,38 +40,50 @@
       lorem переписывается текстов. Они напоивший грамматики прямо решила
       деревни.
     </p>
-    <h2>Картины</h2>
+    <h2 class="subtitle">Картины</h2>
     <section class="goods">
       <div class="card">
-        <p class="card__title">Ваза с цветами</p>
-        <img class="card__img" src="../img/catalog/pict_flowers.jpg"/>
-        <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, praesentium.</p>
+        <h3 class="card__title">Ваза с цветами</h3>
+        <img class="card__img" src="../img/catalog/pict_flowers.jpg" />
+        <p class="card__description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
+          praesentium.
+        </p>
       </div>
       <div class="card">
-        <p class="card__title">Портрет подруги</p>
-        <img class="card__img" src="../img/catalog/pict_lera.jpg"/>
-        <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, voluptatibus?</p>
+        <h3 class="card__title">Портрет подруги</h3>
+        <img class="card__img" src="../img/catalog/pict_lera.jpg" />
+        <p class="card__description">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab,
+          voluptatibus?
+        </p>
       </div>
       <div class="card">
-        <p class="card__title">Зимняя река</p >
-        <img class="card__img" src="../img/catalog/pict_winter.jpg"/>
-        <p class="card__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, possimus?</p>
+        <h3 class="card__title">Зимняя река</h3>
+        <img class="card__img" src="../img/catalog/pict_winter.jpg" />
+        <p class="card__description">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias,
+          possimus?
+        </p>
       </div>
-      
     </section>
     <footer class="footer">
       <a href="https://vk.com/denverfedorov">
         <img
-          class="footer__link-icons"
+          class="footer__icon"
           src="./../img/footer/vk.svg"
           alt="VK link"
+          height="32"
+
         />
       </a>
       <a href="https://t.me/Fedorov_Denis_1982">
         <img
-          class="footer__link-icons"
+          class="footer__icon"
           src="./../img/footer/telegram.svg"
           alt="Telegram link"
+          height="32"
+
         />
       </a>
     </footer>

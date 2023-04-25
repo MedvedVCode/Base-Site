@@ -8,31 +8,37 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <nav class="navigation">
-      <a href="index.html">Главная</a>
-      <a href="catalog/catalog.html">Каталог</a>
-      <a href="#">Контакты</a>
-    </nav>
-    <h1>Контакты</h1>
+    <ul class="menu">
+      <li class="menu-item">
+        <a class="menu-link" href="index.html">Главная</a>
+      </li>
+      <li class="menu-item">
+        <a class="menu-link" href="catalog/catalog.html">Каталог</a>
+      </li>
+      <li class="menu-item">
+        <a class="menu-link" href="#">Контакты</a>
+      </li>
+    </ul>
+    <h1 class="title">Контакты</h1>
     <section class="contacts">
-      <p>
+      <p class="txt">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
         corporis maiores animi architecto eveniet harum? Officia recusandae
         facilis molestiae expedita et! Earum similique sint soluta adipisci
         quaerat consectetur amet cum.
       </p>
     </section>
-    <h2>Отправить вопрос</h2>
+    <h2 class="subtitle">Отправить вопрос</h2>
     <form class="request" action="#">
       <input
-        class="request__input"
+        class="input"
         id="name"
         type="text"
         placeholder="Введите ваше имя"
       />
       <input
+        class="input"
         type="email"
-        class="request__input"
         id="email"
         placeholder="Введите ваш email"
       />
@@ -43,16 +49,18 @@
     <footer class="footer">
       <a href="https://vk.com/denverfedorov">
         <img
-          class="footer__link-icons"
+          class="footer__icon"
           src="./img/footer/vk.svg"
           alt="VK link"
+          height="32"
         />
       </a>
       <a href="https://t.me/Fedorov_Denis_1982">
         <img
-          class="footer__link-icons"
+          class="footer__icon"
           src="./img/footer/telegram.svg"
           alt="Telegram link"
+          height="32"
         />
       </a>
     </footer>
